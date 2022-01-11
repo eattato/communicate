@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      #logo {
+        color: rgb(100, 128, 0);
+      }
+      .bg {
+        color: white;
+        background-color: yellow;
+      }
+      div {
+        width: 100;
+        height: 100;
+      }
+    </style>
+    <!--블럭 = 한 줄 다 씀-->
+  </head>
+  <body>
+    <div id="logo">
+      <span>
+        <img src="talk.png" title="logo" />
+      </span>
+      <h1>짭카오톡</h1>
+    </div>
+    <div class="bg">
+      로그인
+      <form>
+        <input
+          type="email"
+          placeholder="이메일"
+          required
+          width="200"
+          height="100"
+        />
+        <input
+          type="password"
+          placeholder="비번"
+          required
+          width="200"
+          height="100"
+        />
+      </form>
+    </div>
+    <br />
+    <button id="bg">로그인</button>
+  </body>
 </html>
