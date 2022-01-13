@@ -7,7 +7,10 @@
     <title>Document</title>
     <style>
       .bg {
-        height: 1000vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
         background-color: #a3ff97;
       }
 
@@ -24,14 +27,11 @@
       }
 
       img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         width: 250px;
         height: 250px;
       }
       img:hover {
-        animation: spin 0.5s ease-in-out forwards;
+        animation: spin 0.5s ease-in-out forwards alternate;
       }
     </style>
   </head>
