@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        background-color: #e9bcb0;
+      }
+
+      .logo {
+        margin-bottom: -200px;
+        margin-top: 0px;
+        width: 200px;
+        height: 200px;
+      }
+
+      @keyframes inputZoom {
+        from {
+          transform: scale(1);
+        }
+        to {
+          transform: scale(1.05);
+        }
+      }
+      .input {
+        width: 225px;
+        height: 100px;
+        margin-top: 250px;
+        margin-bottom: 50px;
+      }
+      .input > .inputFrame {
+        color: #f8dede;
+        background-color: #e38368;
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: #8d5141 3px solid;
+        border-radius: 8px;
+        width: 225px;
+        height: 45px;
+        margin-bottom: 10px;
+      }
+      .inputFrame > input {
+        color: #f8dede;
+        background-color: transparent;
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        width: 220px;
+        height: 45px;
+        margin-left: 5px;
+      }
+      .inputFrame > input::placeholder {
+        color: #e4b4b4;
+      }
+      .inputFrame > input:focus {
+        outline: none;
+      }
+      .inputFrame:hover {
+        animation: inputZoom 0.1s ease-in forwards;
+      }
+
+      .social {
+        width: 225px;
+        height: 100px;
+      }
+      .social > .sbutton {
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 8px;
+        background-color: #ffffff;
+        width: 225px;
+        height: 45px;
+        margin-bottom: 10px;
+      }
+      .sbutton {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+      }
+      .sbutton > .slogo {
+        margin-left: 15px;
+        width: 20px;
+        height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+      <img class="logo" src="wa logo.png" alt="" />
+      <div class="input">
+        <div class="inputFrame">
+          <input type="email" placeholder="이메일을 입력하세요." required />
+        </div>
+        <div class="inputFrame">
+          <input
+            type="password"
+            placeholder="비밀번호를 입력하세요."
+            required
+          />
+        </div>
+      </div>
+      <div class="social">
+        <div role="button" class="sbutton">
+          <img src="" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
