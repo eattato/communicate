@@ -1,0 +1,111 @@
+.friends-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.friends-topbar__label {
+  font-size: 24;
+  font-weight: 1000;
+}
+
+.friends-topbar__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.friends-category {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-top: 1px solid lightgray;
+}
+
+.friends-category__label {
+  height: 15px;
+  font: 12px;
+  color: gray;
+}
+
+.friends-profile {
+  display: flex;
+  align-items: center;
+  border: none;
+  height: 50px;
+}
+
+.friends-profile__imgFrame {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.friends-profile__image {
+  width: 100%;
+  height: 100%;
+}
+
+.friends-profile__statFrame {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 30px;
+}
+
+.friends-profile__status {
+  font-size: 12px;
+  color: gray;
+}
+
+.friends-profile__music {
+  right: 0;
+  height: 20px;
+  border: 1px solid green;
+  margin-left: 75px;
+  border-radius: 10px;
+}
+
+.friends-profile__music > span {
+  font-size: 10px;
+  color: gray;
+  text-align: center;
+}
+
+.friends-botbar {
+  position: fixed;
+  bottom: 0;
+  padding: 20px 50px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  border-top: 1px solid lightgray;
+}
+
+.friends-botbar__list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.friends-botbar__btn {
+  width: 40px;
+  height: 40px;
+}
+
+.friends-botbar__link {
+  width: 40px;
+  height: 40px;
+}
+
+.friends-botbar__link > i {
+  width: 40px;
+  height: 40px;
+}
