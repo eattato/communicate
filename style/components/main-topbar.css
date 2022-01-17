@@ -1,0 +1,12 @@
+.main-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.main-topbar__label {
+  font-size: 24;
+  font-weight: 1000;
+  margin-left: 15px;
+}

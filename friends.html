@@ -12,6 +12,7 @@
       src="https://kit.fontawesome.com/d5e5d975b2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/scale.js"></script>
 
     <!--1: 상단 헤더-->
     <div class="status-bar">
@@ -32,87 +33,94 @@
       </div>
     </div>
 
-    <!--friends topbar(most top bar)-->
-    <div class="friends-topbar">
-      <span class="friends-topbar__label">친구</span>
-      <div class="friends-topbar__icons">
+    <!--user topbar(most top bar)-->
+    <div class="main-topbar">
+      <span class="main-topbar__label">친구</span>
+      <div class="main-topbar__icons">
         <span><i class="fas fa-search"></i></span>
-        <span><i class="fas fa-user-plus"></i></span>
+        <span><i class="fas fa-plus"></i></span>
         <span><i class="fas fa-music"></i></span>
         <span><i class="fas fa-cog"></i></span>
       </div>
     </div>
 
     <!--my profile-->
-    <div class="friends-profile">
-      <div class="friends-profile__imgFrame">
-        <img class="friends-profile__image" src="user.png" alt="" />
+    <div class="profile">
+      <div class="profile__left">
+        <div class="profile__imgFrame">
+          <img class="profile__image" src="user.png" alt="" />
+        </div>
+        <span class="profile__statFrame">
+          <span class="profile__name">나</span>
+          <span class="profile__status">상태메세지</span>
+        </span>
       </div>
-      <span class="friends-profile__statFrame">
-        <span class="friends-profile__name">나</span>
-        <span class="friends-profile__status">상태메세지</span>
-      </span>
     </div>
 
     <!--category: -->
-    <div class="friends-category">
-      <div class="friends-category__label">즐겨찾기</div>
+    <div class="category">
+      <div class="category__label">즐겨찾기</div>
     </div>
 
     <!--favorites-->
-    <div class="friends-profile">
-      <div class="friends-profile__imgFrame">
-        <img class="friends-profile__image" src="user.png" alt="" />
+    <div class="profile">
+      <div class="profile__left">
+        <div class="profile__imgFrame">
+          <img class="profile__image" src="user.png" alt="" />
+        </div>
+        <span class="profile__statFrame">
+          <span class="profile__name">sunpark</span>
+        </span>
       </div>
-      <span class="friends-profile__statFrame">
-        <span class="friends-profile__name">sunpark</span>
-        <span class="friends-profile__status"></span>
-      </span>
-      <span class="friends-profile__music">
-        <span>만남은 쉽고 이별은 어려워...</span>
-        <i class="fas fa-play"></i>
+      <span class="profile__music">
+        <span>만남은 쉽고 이별은 어려워... ▶️</span>
+        <!-- <i class="fas fa-play"></i> -->
       </span>
     </div>
 
-    <div class="friends-profile">
-      <div class="friends-profile__imgFrame">
-        <img class="friends-profile__image" src="user.png" alt="" />
+    <div class="profile">
+      <div class="profile__left">
+        <div class="profile__imgFrame">
+          <img class="profile__image" src="user.png" alt="" />
+        </div>
+        <span class="profile__statFrame">
+          <span class="profile__name">엄마</span>
+        </span>
       </div>
-      <span class="friends-profile__statFrame">
-        <span class="friends-profile__name">엄마</span>
-        <span class="friends-profile__status"></span>
-      </span>
     </div>
 
-    <div class="friends-profile">
-      <div class="friends-profile__imgFrame">
-        <img class="friends-profile__image" src="user.png" alt="" />
+    <div class="profile">
+      <div class="profile__left">
+        <div class="profile__imgFrame">
+          <img class="profile__image" src="user.png" alt="" />
+        </div>
+        <span class="profile__statFrame">
+          <span class="profile__name">아빠</span>
+        </span>
       </div>
-      <span class="friends-profile__statFrame">
-        <span class="friends-profile__name">아빠</span>
-        <span class="friends-profile__status"></span>
-      </span>
     </div>
 
     <!--category: -->
-    <div class="friends-category">
-      <div class="friends-category__label">추천친구</div>
+    <div class="category">
+      <div class="category__label">추천친구</div>
     </div>
 
-    <!--friends recommendation-->
-    <div class="friends-profile">
-      <div class="friends-profile__imgFrame">
-        <img class="friends-profile__image" src="user.png" alt="" />
+    <!--user recommendation-->
+    <div class="profile">
+      <div class="profile__left">
+        <div class="profile__imgFrame">
+          <img class="profile__image" src="user.png" alt="" />
+        </div>
+        <span class="profile__statFrame">
+          <span class="profile__name">새로운 친구를 만나보세요!</span>
+        </span>
       </div>
-      <span class="friends-profile__statFrame">
-        <span class="friends-profile__name">새로운 친구를 만나보세요!</span>
-        <span class="friends-profile__status"></span>
-      </span>
     </div>
 
     <!--category: -->
-    <div class="friends-category">
-      <div class="friends-category__label">채널</div>
+    <div class="category">
+      <div class="category__label">친구</div>
+      <button class="category__open">^</button>
     </div>
 
     <!--nav-->

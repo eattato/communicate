@@ -1,0 +1,126 @@
+.category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-top: 1px solid lightgray;
+}
+
+.category__label {
+  height: 15px;
+  font-size: 12px;
+  color: gray;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.category__open {
+  width: 20px;
+  height: 20px;
+  color: lightgray;
+  font-size: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+}
+
+.profile__left {
+  display: flex;
+  align-items: center;
+  border: none;
+  height: 50px;
+}
+
+.profile__imgFrame {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.profile__image {
+  width: 100%;
+  height: 100%;
+}
+
+.profile__imgFrame-quad {
+  display: table;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.profile__imgFrame-quad > .profile__image {
+  width: 46%;
+  height: 46%;
+  margin: 2%;
+}
+
+.profile__statFrame {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 30px;
+}
+
+.profile__statFrame > span {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.profile__status {
+  font-size: 12px;
+  color: gray;
+}
+
+.profile__music {
+  right: 0;
+  height: 20px;
+  border: 1px solid green;
+  border-radius: 15px;
+  margin-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.profile__music > span {
+  font-size: 10px;
+  color: gray;
+  text-align: center;
+}
+
+.profile__meFrame {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile__me {
+  background-color: black;
+  border: black 0px solid;
+  color: white;
+  border-radius: 10px;
+  width: 15px;
+  height: 10px;
+  font-size: 12px;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  text-align: center;
+  margin-right: 3px;
+}

@@ -1,0 +1,54 @@
+.chatlist-ad__frame {
+  width: 100%;
+  height: 65px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.chatlist-ad__link {
+  width: 90%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.chatlist-ad__img {
+  width: 100%;
+  height: 100%;
+}
+
+.chatinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 70px;
+  height: 100%;
+  margin-right: 15px;
+}
+
+.chatinfo__time {
+  font-size: 12px;
+  color: lightgray;
+}
+
+.chatinfo__bubble {
+  background-color: red;
+  border: red 0px solid;
+  color: white;
+  border-radius: 10px;
+  width: 15px;
+  height: 10px;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.chatinfo__blank {
+  width: 100%;
+  height: 10px;
+}
