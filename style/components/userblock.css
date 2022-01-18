@@ -86,8 +86,13 @@
 }
 
 .profile__status {
-  font-size: 12px;
+  font-size: 11px;
   color: gray;
+  width: 200px;
+}
+
+.profile__name {
+  font-size: 13px;
 }
 
 .profile__music {
@@ -116,11 +121,29 @@
   border: black 0px solid;
   color: white;
   border-radius: 10px;
-  width: 15px;
-  height: 10px;
-  font-size: 12px;
+  width: 13px;
+  height: 8px;
+  font-size: 10px;
   padding-top: 3px;
   padding-bottom: 2px;
   text-align: center;
   margin-right: 3px;
+}
+
+.profile__inone {
+  text-align: center;
+  padding-top: 2px;
+  font-size: 10px;
+  color: lightgray;
+  margin-left: 7px;
+}
+
+.profile__nobell {
+  margin-left: 10px;
+  width: 12px;
+  height: 12px;
+  color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

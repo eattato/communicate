@@ -12,37 +12,47 @@
       src="https://kit.fontawesome.com/d5e5d975b2.js"
       crossorigin="anonymous"
     ></script>
+    <script src = "js/profiler.js"></script>
+    </script>
     <script src="js/scale.js"></script>
 
     <!--1: 상단 헤더-->
-    <div class="status-bar">
-      <!--1-1: service label-->
-      <div class="status-bar__column">
-        <span>Service</span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <!--1-2: time display-->
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <!--1-3: battery display-->
-      <div class="status-bar__column">
-        <span>100%</span>
-        <i class="fas fa-battery-full"></i>
-        <i class="fas fa-bolt"></i>
+    <div class="status-bar__frame">
+      <div class="status-bar">
+        <!--1-1: service label-->
+        <div class="status-bar__column">
+          <span>Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <!--1-2: time display-->
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <!--1-3: battery display-->
+        <div class="status-bar__column">
+          <span>100%</span>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
       </div>
     </div>
+    <!-- top header blank filler -->
+    <div class="status-bar__blankFiller"></div>
 
     <!--topbar(most top bar)-->
-    <div class="main-topbar">
-      <span class="main-topbar__label">채팅</span>
-      <div class="main-topbar__icons">
-        <span><i class="fas fa-search"></i></span>
-        <span><i class="fas fa-user-plus"></i></span>
-        <span><i class="fas fa-music"></i></span>
-        <span><i class="fas fa-cog"></i></span>
+    <div class="main-topbar__frame">
+      <div class="main-topbar">
+        <span class="main-topbar__label">채팅</span>
+        <div class="main-topbar__icons">
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="fas fa-user-plus"></i></span>
+          <span><i class="fas fa-music"></i></span>
+          <span><i class="fas fa-cog"></i></span>
+        </div>
       </div>
     </div>
+    <!-- topbar fixed blank filler -->
+    <div class="main-topbar__blankFiller"></div>
 
     <!--AD-->
     <div class="chatlist-ad__frame">
@@ -91,6 +101,31 @@
 
     <div class="profile">
       <div class="profile__left">
+        <div class="profile__imgFrame">
+          <img class="profile__image" src="img/rodev.png" alt="" />
+        </div>
+        <span class="profile__statFrame">
+          <div class="profile__meFrame">
+            <span class="profile__me">그룹</span>
+            <span class="profile__name">rodev</span>
+            <span class="profile__inone">256</span>
+            <span class="profile__nobell"
+              ><i class="fas fa-bell-slash"></i
+            ></span>
+          </div>
+          <span class="profile__status">누구꺼</span>
+        </span>
+      </div>
+      <div class="chatinfo">
+        <span class="chatinfo__time">오후 1:23</span>
+        <span class="chatinfo__bubble">999+</span>
+        <div class="chatinfo__blank"></div>
+        <!-- 꼼수 ㄹㅇㅋㅋ -->
+      </div>
+    </div>
+
+    <div class="profile">
+      <div class="profile__left">
         <div class="profile__imgFrame-quad">
           <img class="profile__image" src="user.png" alt="" />
           <img class="profile__image" src="user.png" alt="" />
@@ -98,7 +133,11 @@
           <img class="profile__image" src="user.png" alt="" />
         </div>
         <span class="profile__statFrame">
-          <span class="profile__name">그룹 채팅</span>
+          <div class="profile__meFrame">
+            <span class="profile__me">그룹</span>
+            <span class="profile__name">그룹 채팅</span>
+            <span class="profile__inone">4</span>
+          </div>
           <span class="profile__status">커피 한 잔 할래요~</span>
         </span>
       </div>
@@ -108,5 +147,48 @@
         <!-- 꼼수 ㄹㅇㅋㅋ -->
       </div>
     </div>
+
+    <!--spam-->
+    <div class="profile">
+      <div class="profile__left">
+        <div class="profile__imgFrame">
+          <img class="profile__image" src="img/spam.png" alt="" />
+        </div>
+        <span class="profile__statFrame">
+          <span class="profile__name">허경영 사무소</span>
+          <span class="profile__status"
+            >안녕하십니까. 허경영 대통령 후보입..</span
+          >
+        </span>
+      </div>
+      <div class="chatinfo">
+        <span class="chatinfo__time">오후 7:00</span>
+        <span class="chatinfo__bubble">1</span>
+        <div class="chatinfo__blank"></div>
+        <!-- 꼼수 ㄹㅇㅋㅋ -->
+      </div>
+    </div>
+    <script></script>
+
+    <!-- spam -->
+
+    <!--nav-->
+    <div class="botbar__blank"></div>
+    <nav class="botbar">
+      <ul class="botbar__list">
+        <li class="botbar__btn">
+          <a href="#" class="botbar__link"><i class="far fa-user"></i></a>
+        </li>
+        <li class="botbar__btn">
+          <a href="#" class="botbar__link"><i class="far fa-comment"></i></a>
+        </li>
+        <li class="botbar__btn">
+          <a href="#" class="botbar__link"><i class="fas fa-search"></i></a>
+        </li>
+        <li class="botbar__btn">
+          <a href="#" class="botbar__link"><i class="fas fa-ellipsis-h"></i></a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>

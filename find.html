@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jjabkaotalk</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <script
+      src="https://kit.fontawesome.com/d5e5d975b2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--1: 상단 헤더-->
+    <div class="status-bar__frame">
+      <div class="status-bar">
+        <!--1-1: service label-->
+        <div class="status-bar__column">
+          <span>Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <!--1-2: time display-->
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <!--1-3: battery display-->
+        <div class="status-bar__column">
+          <span>100%</span>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+    </div>
+    <!-- top header blank filler -->
+    <div class="status-bar__blankFiller"></div>
+
+    <!--topbar(most top bar)-->
+    <div class="main-topbar__frame">
+      <div class="main-topbar">
+        <span class="main-topbar__label">검색</span>
+        <div class="main-topbar__icons">
+          <span><i class="fas fa-search"></i></span>
+          <span><i class="fas fa-user-plus"></i></span>
+          <span><i class="fas fa-music"></i></span>
+          <span><i class="fas fa-cog"></i></span>
+        </div>
+      </div>
+    </div>
+    <!-- topbar fixed blank filler -->
+    <div class="main-topbar__blankFiller"></div>
+
+    <div class="find-frame">
+      <!-- menu frame -->
+      <div class="find-menu__frame">
+        <ul class="find-menu">
+          <li class="find-menu__btn">
+            <a href="#"
+              ><i class="fas fa-qrcode fa-2x"></i> <span>QR Code</span></a
+            >
+          </li>
+          <li class="find-menu__btn">
+            <a href="#"
+              ><i class="far fa-address-book fa-2x"></i>
+              <span>Add by Contacts</span></a
+            >
+          </li>
+          <li class="find-menu__btn">
+            <a href="#"
+              ><i class="fas fa-fingerprint fa-2x"></i>
+              <span>Add by ID</span></a
+            >
+          </li>
+          <li class="find-menu__btn">
+            <a href="#"
+              ><i class="far fa-envelope fa-2x"></i> <span>Invite</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- friend recommend -->
+      <div class="find-recommend__frame">
+        <div class="find-recommend__label">
+          <span>Recommended Friends</span>
+        </div>
+        <div class="find-recommend__list">
+          <span>You have no recommended friends.</span>
+        </div>
+      </div>
+      <!-- openchat -->
+      <div class="find-openchat__frame">
+        <div class="find-openchat__label">
+          <span>Open Chat</span>
+          <a class="find-openchat__home" href="#"
+            ><span>Go to Openchat Home ></span></a
+          >
+        </div>
+        <!-- openchat list -->
+        <div class="find-openchat__list">
+          <!-- openchat -->
+          <div class="openchat__frame">
+            <div class="openchat__left">
+              <span class="openchat__name">#BTS</span>
+              <span class="openchat__tags">#BTS#ARMY#TRENDS</span>
+              <div class="openchat__membersFrame">
+                <span class="openchat__members">1,234 Members | </span>
+                <span class="openchat__active">Active</span>
+              </div>
+            </div>
+            <div class="openchat__right">
+              <div class="openchat__imgFrame">
+                <img class="openchat__img" src="img/btschat.jpg" alt="" />
+                <span class="openchat__loved">♥ 1,234</span>
+              </div>
+            </div>
+          </div>
+          <!-- openchat end -->
+          <!-- openchat -->
+          <div class="openchat__frame">
+            <div class="openchat__left">
+              <span class="openchat__name">#KAKAO T</span>
+              <span class="openchat__tags">#KAKAO#TAXI</span>
+              <div class="openchat__membersFrame">
+                <span class="openchat__members">200 Members | </span>
+                <span class="openchat__active">Active</span>
+              </div>
+            </div>
+            <div class="openchat__right">
+              <div class="openchat__imgFrame">
+                <img class="openchat__img" src="img/kakaot.png" alt="" />
+                <span class="openchat__loved">♥ 103</span>
+              </div>
+            </div>
+          </div>
+          <!-- openchat end -->
+        </div>
+      </div>
+
+      <!--nav-->
+      <div class="botbar__blank"></div>
+      <nav class="botbar">
+        <ul class="botbar__list">
+          <li class="botbar__btn">
+            <a href="#" class="botbar__link"><i class="far fa-user"></i></a>
+          </li>
+          <li class="botbar__btn">
+            <a href="#" class="botbar__link"><i class="far fa-comment"></i></a>
+          </li>
+          <li class="botbar__btn">
+            <a href="#" class="botbar__link"><i class="fas fa-search"></i></a>
+          </li>
+          <li class="botbar__btn">
+            <a href="#" class="botbar__link"
+              ><i class="fas fa-ellipsis-h"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>

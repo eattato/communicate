@@ -9,6 +9,7 @@
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/chatlist.css";
+@import "screens/find.css";
 
 body {
   font-family: "Lato", sans-serif;

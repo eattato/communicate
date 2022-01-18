@@ -1,12 +1,73 @@
+.main-topbar__frame {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+}
+
 .main-topbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
+  background-color: white;
+  border-top: none 0px;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px lightgray solid;
 }
 
 .main-topbar__label {
   font-size: 24;
   font-weight: 1000;
   margin-left: 15px;
+}
+
+.main-topbar__blankFiller {
+  width: 100%;
+  height: 60px;
+}
+
+.botbar {
+  position: fixed;
+  bottom: 0;
+  padding: 20px 50px;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  background-color: white;
+  border-top: 1px solid lightgray;
+  border-bottom: 0px none;
+  border-left: none;
+  border-right: none;
+}
+
+.botbar__list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.botbar__btn {
+  width: 40px;
+  height: 40px;
+}
+
+.botbar__link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.botbar__link > i {
+  width: 40px;
+  height: 40px;
+}
+
+.botbar__blank {
+  height: 80px;
 }
