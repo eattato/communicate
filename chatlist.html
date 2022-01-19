@@ -7,13 +7,12 @@
     <title>Jjabkaotalk</title>
     <link rel="stylesheet" href="style/style.css" />
   </head>
-  <body>
+  <body id="body">
     <script
       src="https://kit.fontawesome.com/d5e5d975b2.js"
       crossorigin="anonymous"
     ></script>
-    <script src = "js/profiler.js"></script>
-    </script>
+    <script src="js/profiler.js"></script>
     <script src="js/scale.js"></script>
 
     <!--1: 상단 헤더-->
@@ -168,7 +167,17 @@
         <!-- 꼼수 ㄹㅇㅋㅋ -->
       </div>
     </div>
-    <script></script>
+    <script>
+      var profileDict = {};
+      profileDict["image"] = "img/spam.png";
+      profileDict["name"] = "허경영 사무소";
+      profileDict["status"] = "안녕하십니까. 허경영 대통령 후보입..";
+      var chatInfo = {};
+      chatInfo["time"] = "오후 7:00";
+      chatInfo["bubble"] = "1";
+      profileDict["chatinfo"] = chatInfo;
+      genProfile("body", profileDict);
+    </script>
 
     <!-- spam -->
 
