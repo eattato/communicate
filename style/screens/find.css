@@ -50,6 +50,7 @@
 .find-menu__btn > a > i {
   color: black;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .find-recommend__frame {

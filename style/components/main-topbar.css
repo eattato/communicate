@@ -58,16 +58,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12px;
   text-decoration: none;
   color: black;
 }
 
 .botbar__link > i {
-  width: 40px;
-  height: 40px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .botbar__blank {
   height: 80px;
+}
+
+#searchEmpty {
+  color: lightgray;
+}
+
+#ellipsisEmpty {
+  height: 100%;
+  width: 100%;
 }

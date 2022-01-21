@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jjabkaotalk - chat</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <script
+      src="https://kit.fontawesome.com/d5e5d975b2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--1: 상단 헤더-->
+    <div class="status-bar__frame">
+      <div class="status-bar">
+        <!--1-1: service label-->
+        <div class="status-bar__column">
+          <span>Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <!--1-2: time display-->
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <!--1-3: battery display-->
+        <div class="status-bar__column">
+          <span>100%</span>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+    </div>
+    <!-- top header blank filler -->
+    <div class="status-bar__blankFiller"></div>
+
+    <!--topbar(most top bar)-->
+    <div class="chat-topbar__frame">
+      <div class="chat-topbar">
+        <div class="chat-topbar__left">
+          <i class="fas fa-arrow-left"></i>
+          <span class="chat-topbar__label">채팅</span>
+        </div>
+        <div class="chat-topbar__icons">
+          <span><i class="fas fa-search"></i></span>
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </div>
+    <!-- topbar fixed blank filler -->
+    <div class="chat-topbar__blankFiller"></div>
+
+    <div class="chat-botbar__blankFiller"></div>
+    <nav class="chat-botbar">
+      <form>
+        <button class="chat-botbar__plus">
+          <i></i>
+        </button>
+        <input type="text" class="chat-botbar__type" />
+        <button class="chat-botbar__emote">
+          <i></i>
+        </button>
+        <button class="chat-botbar__sharp">
+          <i></i>
+        </button>
+      </form>
+    </nav>
+  </body>
+</html>
