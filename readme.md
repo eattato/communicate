@@ -5,7 +5,7 @@
 ## [인트로]
 
 처음 열면 나오는 인트로 화면입니다.
-![인트로 화면](https://github.com/eattato/jjabkao-talk/blob/master/img/intro.png?raw=true)
+![인트로 화면](https://github.com/eattato/jjabkao-talk/blob/master/img/intro.PNG?raw=true)
 
 ## [친구]
 
